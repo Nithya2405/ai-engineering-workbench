@@ -3,3 +3,11 @@ groq
 chromadb
 sentence-transformers
 pyngrok
+
+google-genai
+openai
+tavily-python
+chromadb
+sentence-transformers
+streamlit
+python-dotenv
