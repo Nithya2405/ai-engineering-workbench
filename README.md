@@ -2,13 +2,18 @@
 A repository dedicated to exploring the implementation of Generative AI, focusing on moving models into production-ready environments.
 
 ## 🗺️ Project Roadmap
+Day,Project Module,Technical Focus,Core Achievement
+01,Model Benchmarking,LLM Inference,Compared GPT-4o vs Gemini 1.5 for cost/latency.
+02,Token Analytics,Tokenization & Costing,Built a utility to estimate API pricing using tiktoken.
+03,AI Safety,Input Moderation,"Implemented a ""Gatekeeper"" using OpenAI’s Moderation API."
+04,Embeddings Lab,Vector Math,Converted college subjects into 384D semantic vectors.
+05,Vector DB,Persistent Memory,Indexed high-dimensional data into ChromaDB.
+06,RAG Pipeline,Context Augmentation,"Built a ""Chat with Docs"" flow using Gemini + ChromaDB."
+07,Rapid Prototyping,UI/UX for AI,Deployed a full-stack RAG app using Streamlit.
+08,Tool Definition,Real-time Search,Integrated Tavily API to bypass LLM knowledge cutoffs.
+09,ReAct Logic,Reasoning Loops,"Implemented a manual ""Think-Act-Observe"" cycle."
+10,Function Calling,Structured Contracts,Replaced manual prompts with a strict Function Schema.
 
-- **[01_core_concepts](./01_core_concepts/):** Benchmarking and safety guardrails.
-- **[02_embeddings_lab](./02_embeddings_lab/):** Deep dive into semantic similarity.
-- **[03_vector_databases](./03_vector_databases/):** Persistent memory with ChromaDB.
-- **[04_rag_pipelines](./04_rag_pipelines/):** Building context-aware systems.
-- **[05_agentic_workflows](./05_agentic_workflows/):** The shift to Autonomous Systems (ReAct & Function Calling).
-- **[06_prototypes](./06_prototypes/):** Full-stack AI applications like **NexusNote**.
 
 
 ## 1.Prototype
