@@ -1,6 +1,14 @@
 # ai-engineering-workbench
 A repository dedicated to exploring the implementation of Generative AI, focusing on moving models into production-ready environments.
 
+## 🗺️ Project Roadmap
+
+- **[01_core_concepts](./01_core_concepts/):** Benchmarking and safety guardrails.
+- **[02_embeddings_lab](./02_embeddings_lab/):** Deep dive into semantic similarity.
+- **[03_vector_databases](./03_vector_databases/):** Persistent memory with ChromaDB.
+- **[04_rag_pipelines](./04_rag_pipelines/):** Building context-aware systems.
+- **[05_agentic_workflows](./05_agentic_workflows/):** The shift to Autonomous Systems (ReAct & Function Calling).
+- **[06_prototypes](./06_prototypes/):** Full-stack AI applications like **NexusNote**.
 
 
 ## 1.Prototype
