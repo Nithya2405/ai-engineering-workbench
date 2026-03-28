@@ -2,19 +2,23 @@
 A repository dedicated to exploring the implementation of Generative AI, focusing on moving models into production-ready environments.
 
 ## 🗺️ Project Roadmap
-Day,Project Module,Technical Focus,Core Achievement
-01,Model Benchmarking,LLM Inference,Compared GPT-4o vs Gemini 1.5 for cost/latency.
-02,Token Analytics,Tokenization & Costing,Built a utility to estimate API pricing using tiktoken.
-03,AI Safety,Input Moderation,"Implemented a ""Gatekeeper"" using OpenAI’s Moderation API."
-04,Embeddings Lab,Vector Math,Converted college subjects into 384D semantic vectors.
-05,Vector DB,Persistent Memory,Indexed high-dimensional data into ChromaDB.
-06,RAG Pipeline,Context Augmentation,"Built a ""Chat with Docs"" flow using Gemini + ChromaDB."
-07,Rapid Prototyping,UI/UX for AI,Deployed a full-stack RAG app using Streamlit.
-08,Tool Definition,Real-time Search,Integrated Tavily API to bypass LLM knowledge cutoffs.
-09,ReAct Logic,Reasoning Loops,"Implemented a manual ""Think-Act-Observe"" cycle."
-10,Function Calling,Structured Contracts,Replaced manual prompts with a strict Function Schema.
 
+This table tracks the technical progression of the workbench, moving from basic model consumption to autonomous agentic workflows.
 
+| Day | Module | Technical Implementation | Key Outcome |
+| :--- | :--- | :--- | :--- |
+| **01** | **Inference Basics** | Multi-provider benchmarking (GPT-4o vs Gemini 1.5) | Understood model latency & response variance |
+| **02** | **Token Economics** | Built a Tiktoken-based counter & cost estimator | Optimized context window usage & API budgeting |
+| **03** | **AI Safety** | Integrated OpenAI Moderation API for input filtering | Built a 'Security Layer' to block harmful prompts |
+| **04** | **Embeddings** | Text-to-Vector conversion using `sentence-transformers` | Visualized semantic clusters in high-dimensional space |
+| **05** | **Vector Storage** | Initialized ChromaDB for local document indexing | Created a persistent 'Memory' for unstructured data |
+| **06** | **RAG Pipeline** | Contextual retrieval combined with Gemini 2.0 Flash | Eliminated hallucinations via fact-based grounding |
+| **07** | **Prototyping** | Full-stack UI development using Streamlit | Built "NexusNote" for interactive document chat |
+| **08** | **Tool Definition** | Tavily Search API integration for live web access | Overcame the LLM knowledge cutoff limitation |
+| **09** | **Agentic Reasoning** | Implemented the ReAct (Reason + Act) Pattern | Enabled the model to plan steps before execution |
+| **10** | **Function Calling** | Strict JSON schema contract for tool execution | Built a reliable, production-grade agentic interface |
+
+---
 
 ## 1.Prototype
 
