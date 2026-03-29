@@ -19,6 +19,13 @@ This table tracks the technical progression of the workbench, moving from basic 
 | **10** | **Function Calling** | Strict JSON schema contract for tool execution | Built a reliable, production-grade agentic interface |
 
 ---
+### 👑 Day 12: Supervisor-Worker Orchestration
+**Technical Focus:** Multi-Agent Architecture & Dynamic Routing.
+
+- **Orchestrator:** Llama-3.3-70b (via Groq) acting as the "Supervisor."
+- **Tools:** Custom `researcher_worker` (Tavily Search) and `analyst_worker`.
+- **Implementation:** The system performs a "Reasoning Step" to decompose a user request into sub-tasks, routes them to specialized functions, and synthesizes the final output.
+- **Key Outcome:** Transitioned from linear execution to a modular, scalable agentic system.
 
 ## 1.Prototype
 
